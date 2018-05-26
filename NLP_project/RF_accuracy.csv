@@ -1,0 +1,23 @@
+RF_accuracy:0.86695278969957079
+"the number of trees:1300  max_feature:2  accuracy:":0.86051502145922742
+"the number of trees:1300  max_feature:2  accuracy:":0.85622317596566522
+"the number of trees:100  max_feature:2  accuracy":0.83905579399141628
+"the number of trees:100  max_feature:1  accuracy":0.85407725321888417
+"the number of trees:150  max_feature:1  accuracy":0.85836909871244638
+"the number of trees:200  max_feature:1  accuracy":0.84120171673819744
+"the number of trees:200  max_feature:2  accuracy":0.84549356223175964
+"the number of trees:200  max_feature:2  accuracy":0.84978540772532185
+"the number of trees:2000  max_feature:2  accuracy":0.85836909871244638
+"the number of trees:2000  max_feature:2  accuracy":0.85622317596566522
+"the number of trees:2000  max_feature:2  accuracy":0.83905579399141628 #IG
+"the number of trees:1300  max_feature:2  accuracy":0.8283261802575107 #IG
+"the number of trees:1300  max_feature:2  accuracy":0.85836909871244638 #CHI feature=4824
+"the number of trees:1300  max_feature:2  accuracy":0.81974248927038629 #CHI feature=4824
+"the number of trees:1300  max_feature:2  accuracy":0.86051502145922742 #扩展停用词后 数据维度：4840  CHI
+"the number of trees:1300  max_feature:2  accuracy":0.84120171673819744 #扩展停用词后 数据维度：4840  IG
+"the number of trees:1300  max_feature:2  accuracy":0.86909871244635195 #归一化的 扩展停用词后 数据维度：4840  CHI 停用词表同IG
+"the number of trees:1300  max_feature:2  accuracy":0.86051502145922742 # 没有归一化  数据维度：4840  CHI 停用词表同IG
+"the number of trees:1300  max_feature:2  accuracy":0.86051502145922742
+"the number of trees:1300  max_feature:2  accuracy":0.86266094420600858
+"the number of trees:1300  max_feature:2  accuracy":0.86266094420600858
+"the number of trees:1300  max_feature:2  accuracy":0.83690987124463523

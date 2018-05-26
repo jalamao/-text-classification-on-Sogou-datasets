@@ -1,0 +1,16 @@
+使用libsvm训练和测试步骤（在安装了libsvm-tools的前提下, 按照步骤在pycharm中的终端一直按顺序复制粘贴以下命令执行即可）：
+（1）对train.svm文件数据进行缩放到[0,1]区间
+
+    svm-scale -l 0 -u 1 train.svm > trainscale.svm
+
+（2）对test.svm文件数据进行缩放到[0,1]区间
+
+    svm-scale -l 0 -u 1 test.svm > testscale.svm
+
+（3）对trainscale.svm 文件进行模型训练
+
+    svm-train -s 1 trainscale.svm trainscale.model
+
+（4）对testscale.svm 文件进行模型预测，得到预测结果，控制台会输出正确率
+
+    svm-predict testscale.svm trainscale.model testscale.result
